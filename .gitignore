@@ -1,0 +1,15 @@
+# Ignore dataset
+data/
+
+# Ignore compressed files
+*.tar.gz
+*.zip
+*.gz
+
+# Ignore SSH keys (CRITICAL)
+id_ed25519*
+*.pem
+
+# Python cache
+__pycache__/
+*.pyc
